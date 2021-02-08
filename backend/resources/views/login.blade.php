@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="mx-auto" style="width: 200px;"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <form action="list.html" method="get">
+            <form action="{{ route('top') }}" method="post">
                 <div class="form-group">
                 <i class="fas fa-user"></i>
                     <label for="inputId"> ID</label>
