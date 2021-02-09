@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\TopController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,4 +17,4 @@ use App\Http\Controllers\LoginController;
 
 Route::get('/', [LoginController::class,'index']);
 
-Route::post('/', [LoginController::class,'index']);
+Route::post('/top', [TopController::class,'index'])->name('top');
