@@ -10,6 +10,7 @@
     <body>
         <div class="mx-auto" style="width: 200px;"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <form action="{{ route('top') }}" method="post">
+                @csrf
                 <div class="form-group">
                 <i class="fas fa-user"></i>
                     <label for="inputId"> ID</label>
