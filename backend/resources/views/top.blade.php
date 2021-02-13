@@ -23,7 +23,7 @@
                 <div class="form-group">
                     <i class="fas fa-key"></i>
                     <label>コメント</label>
-                    <textarea multiple class="form-control" id="comment" rows="3" placeholder="内容をご記入ください"></textarea>
+                    <textarea multiple class="form-control" id="comment" rows="3" style="resize: none;width:300px;height:200px;" placeholder="内容をご記入ください"></textarea>
                 </div>
                 <button type="submit" class="btn btn-success">投稿</button>
             </form>
